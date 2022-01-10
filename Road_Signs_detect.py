@@ -6,7 +6,7 @@ from matplotlib import pyplot as plt
 from matplotlib import style
 
 pytesseract.pytesseract.tesseract_cmd = "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 
 crpd=0
 speed_data=[0]
